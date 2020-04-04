@@ -1,0 +1,100 @@
+.section-secondary{
+    margin-top: 50px;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* background-image: linear-gradient(to right,#7af76481,#15634877); */
+    background-image: linear-gradient(to right bottom,rgb(220, 230, 236),rgb(135, 164, 181));
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* .card{
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 0;
+    position: relative;
+}
+.card .card-side{
+    height: 18rem;
+    transition: all .8s ease;
+    color: white;
+    font-size: 2rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(black, .15);
+}
+.card .card-side-front{
+    background-image: linear-gradient(to right bottom,#fde50788,#b48f2b88),url("/assets/images/user.jpg");
+}
+.card .card-side-back{
+    background-image: linear-gradient(to right bottom,#fde407e1,#ff4500);
+ transform: rotateY(180deg);   
+}
+.card:hover .card-side-front{
+    transform: rotateY(-180deg);
+}
+
+.card:hover .card-side-back{
+    transform: rotateY(0);
+} */
+.col-sm-4{
+    margin-bottom: 30px !important;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba(black, .15) !important;
+}
+
+.card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 300ms;
+    color: #777 !important;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 20rem;
+    margin: 0;
+    display: flex;
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+  }
+  
+  .card-back {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    text-align: center;
+  }
+  
+  .card-flip:hover .card-front {
+    transform: rotateY(-180deg);
+  }
+    
+  .card-flip:hover .card-back {
+    transform: rotateY(0deg);
+  }
+  .fit-image{
+      height: 8rem;
+      width: 8rem;
+  }
+  .card-body-back{
+      color: #87a4b5;
+    background-image: linear-gradient(to right bottom,#dce6ec80,#87a4b556);
+  }
+  .back-section{
+      margin-top: 30% !important;
+  }
+
+.p-20{
+    padding-top: 30px;
+    margin-top: 50px;
+}

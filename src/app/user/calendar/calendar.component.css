@@ -1,0 +1,13 @@
+.modal-header{
+    margin-left: 1px;
+    margin-right: 1px;
+}
+.btn-primary{
+    background-color: #87a4b5 !important;
+    border-color: grey;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show .btn-primary.dropdown-toggle{
+    background-color: #dce6ec80 !important;
+    color: #777;
+    border-color: yellow;
+}

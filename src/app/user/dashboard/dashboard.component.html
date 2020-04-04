@@ -1,0 +1,25 @@
+<h2 class="section-secondary">Users from different Timezones</h2>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4" *ngFor="let user of allUser">
+            <div class="card card-flip h-100">
+                <div class="card-front text-white ">
+                    <div class="card-body">
+                        <div class="text-center">
+                        <img class="card-img-top fit-image" src="/assets/images/user.png"></div><hr>
+                        <h3 class="card-title">{{user.real_name}}</h3>
+                        <p class="card-text">{{user.tz}}</p>
+                    </div>
+                </div>
+                <div class="card-back">
+                    <div class="card-body card-body-back">
+                        <div class="back-section">
+                        <h3 class="card-title">{{user.tz}}</h3>
+                        <button (click)="openCalendar()" class="btn btn-outline-secondary">Activity Period</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
